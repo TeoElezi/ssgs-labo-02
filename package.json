@@ -1,12 +1,29 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "CLI avanzata per operazioni su stringhe con test automatizzati",
+  "main": "src/stringUtils.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/cli.js",
+    "test": "jest --silent",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "bin": {
+    "string-cli": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeoElezi/ssgs-labo-02.git"
+  },
+  "keywords": ["cli", "strings", "nodejs", "utility", "text-processing"],
+  "author": "Matteo Elezi <5283664@studenti.unige.it>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
