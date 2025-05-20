@@ -5,9 +5,7 @@
   "main": "src/stringUtils.js",
   "scripts": {
     "start": "node src/cli.js",
-    "test": "jest --silent",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test": "jest --coverage",
     "lint": "eslint ."
   },
   "bin": {

@@ -3,14 +3,14 @@ const {
     isPalindrome,
     truncateString,
     countCharacters,
-} = require('./src/stringUtils');
+} = require('./stringUtils');
 
 // Otteniamo gli argomenti dalla riga di comando
 // process.argv[0] è 'node', process.argv[1] è il percorso dello script
 const args = process.argv.slice(2);
 
 if (args.length < 2) {
-    console.error("Utilizzo: node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]");
+    console.error("Utilizzo: node ./src/cli <numero_funzione> <stringa_input> [parametro_aggiuntivo]");
     console.error("Numero funzione:");
     console.error("  1: Inverti Stringa (reverseString)");
     console.error("  2: Controlla Palindromo (isPalindrome)");
