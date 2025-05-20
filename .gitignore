@@ -1,19 +1,17 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Dipendenze
+node_modules/
 
-# Environments
+# Ambiente
 .env
-.venv
-env/
-venv/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# Logs
+*.log
 
-# Unit test / coverage reports
-.coverage
-.pytest_cache/
-htmlcov/
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+
+# Sistemi operativi
+.DS_Store
